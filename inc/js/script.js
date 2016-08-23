@@ -14,7 +14,7 @@ jQuery(document).ready(function () {
     var width = jQuery(window).width();
     if (width > 767) {
         jQuery('.navbar.prestro-navbar').TMStickUp();
-        jQuery('.main-nav ul li, .isStuck ul li').hover(
+        jQuery('.main-nav ul li').hover(
                 function () {
                     jQuery(this).children('.sub-menu').stop(true, true).slideDown('slow');
                 },

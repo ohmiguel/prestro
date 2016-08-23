@@ -573,6 +573,8 @@ body.home .navbar.prestro-navbar{background: rgba(0,0,0,0.6)}
     font-weight: 200;
     margin-bottom: 0;
     border-bottom: 1px solid #eee;
+    position: fixed;
+    width: 100%;
 }
 .prestro-navbar .prestro-nav > li > a {
     line-height: 25px;
@@ -981,16 +983,12 @@ body.blog.admin-bar .site-header {
 body.admin-bar .site-header {
     top: 28px /* Make this 32px if MP6 is installed */
 }
-nav.isStuck {
-    top: 28px !important;
-}
 .site-logo img{
     max-height: 54px;
     max-width: 115px;
 }
 
 #prestro-top-nav .nav > li{padding: 0 5px;float: left}
-.isStuck .prestro-nav > li > a{line-height: 15px}
 #prestro-top-nav .nav > li a{padding: 10px auto;border-top: 3px solid transparent;border-bottom: 3px solid transparent}
 #logo span{color: #fff;font-size: 2.3em;font-family: 'GreatVibes',serif}
 .float-header #mainnav ul li a{
@@ -1181,7 +1179,6 @@ nav.isStuck {
     background: rgba(0,0,0,0.75);
     width: 200px !important;
 }
-.isStuck .navbar-header #logo{padding-top: 5px}
 .navbar-header > #logo{padding-top: 10px}
 .main-nav li > .sub-menu li:hover{
     background: rgba(0,0,0,0.75);
@@ -1401,12 +1398,8 @@ label,.textwidget,.site-footer,.entry-content,.why-us h3,.why-us p{font-family: 
     font-size: 40px;
     padding-top: 30px;
 }
-.isStuck{
-    z-index: 9;
-}
 #logo img{padding-top: 10px}
 .navbar.prestro-navbar{border-bottom: 1px solid #ccc}
-.isStuck #logo img{padding-top: 5px}
 
 /*Animation styles*/
 h3.animateblock,.services .animateblock{
