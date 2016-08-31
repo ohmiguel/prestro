@@ -35,6 +35,9 @@
         width: 50%;
     }
 }
+@media screen and (max-width: 690px){
+    .isStuck #logo img{padding-top: 10px}
+}
 @media screen and (max-width: 660px){
     #logo img{
         max-width: 100%;
