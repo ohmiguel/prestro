@@ -1560,13 +1560,6 @@ h3.animateblock.animated{
     color: #fff;
     padding: 10px;
 }
-.nivo-caption {
-    background: rgba(0,0,0,0.8);
-    bottom: 300px;
-    left: 400px;
-    max-width: 100%;
-    width: 550px;
-}
 .slide_link > a {
     background: #46d246;
     color: #fff;
