@@ -24,9 +24,6 @@
           <?php wp_head(); ?>
     </head>   
     <body <?php body_class(); ?>>
-    <div id="preloader">
-        <div class="loading-circle fa-spin"></div>
-    </div>
     <div id="page" class="hfeed site">
 <div class="site-header">
         <nav id="prestro-top-nav" class="navbar prestro-navbar" role="navigation">

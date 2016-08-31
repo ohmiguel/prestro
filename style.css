@@ -1737,32 +1737,6 @@ h3.animateblock.animated{
 .blog_sec{padding: 100px 0}
 /*blog section end*/
 
-/*Site preloader style*/
-#preloader {
-    background-color: #fff;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10050;
-}
-.loading-circle {
-    border-color: #007cb5 rgba(0, 0, 0, 0);
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 3px;
-    height: 60px;
-    left: 49%;
-    position: absolute;
-    top: 49%;
-    width: 60px;
-}
-.fa-spin {
-    -webkit-animation: 2s linear 0s normal none infinite running fa-spin;
-    -moz-animation: 2s linear 0s normal none infinite running fa-spin;
-    animation: 2s linear 0s normal none infinite running fa-spin;
-}
 .res-line,.res-title{display: none}
 .widget_recent_entries .footer-post-title{float: none;margin-left: 15px}
 .widget_recent_entries .footer-post-title{width: auto}
