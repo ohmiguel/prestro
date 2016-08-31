@@ -87,11 +87,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: normal;
 }
 body {
-    color: #666666;
+    color: #fff;
     word-wrap: break-word;
     line-height: 1.7;
     font-size: 14px;
     font-family: 'Montserrat';
+    background-color: #181818;
 }
 html,
 body {
@@ -314,8 +315,9 @@ textarea {
     margin-right: 10px;
 }
 .entry-title {
-    font-size: 26px;
-    color: #444;
+    color: #46d246;
+    text-align: center;
+    font-family: 'GreatVibes', sans-serif;
 }
 .entry-title a {
     color: #444;
@@ -572,7 +574,6 @@ body.home .navbar.prestro-navbar{background: rgba(0,0,0,0.6)}
     background-color: rgba(0,0,0,0.35);
     font-weight: 200;
     margin-bottom: 0;
-    border-bottom: 1px solid #eee;
     position: fixed;
     width: 100%;
 }
@@ -599,6 +600,9 @@ body.home .navbar.prestro-navbar{background: rgba(0,0,0,0.6)}
 .main-nav .prestro-nav > li > a:focus, .main-nav .prestro-nav > li > a:hover, .main-nav .prestro-nav > li > a:active , .main-nav .prestro-nav > li.current-menu-item a{
     background: transparent !important;
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
 }
 .current-menu-ancestor > a{color: #FFFFFF !important;}
 .main-nav li > .sub-menu li{
@@ -623,7 +627,7 @@ ul.nav ul.submenu{
     color: #e1e1e1;
 }
 .main-nav .prestro-nav > li a:before, .main-nav .prestro-nav > li a:after{
-    background : none repeat scroll 0 0 #007cb5;
+    background : none repeat scroll 0 0 #46d246;
 }
 .main-nav .prestro-nav > li > a:before{
     top: 9px;
@@ -889,7 +893,7 @@ p.logged-in-as {
     background-color: transparent;
 }
 .scroll-to-top {
-    background: #007cb5;
+    background: #46d246;
     color: #fff;
     bottom: 4%;
     cursor: pointer;
@@ -990,7 +994,16 @@ body.admin-bar .site-header {
 
 #prestro-top-nav .nav > li{padding: 0 5px;float: left}
 #prestro-top-nav .nav > li a{padding: 10px auto;border-top: 3px solid transparent;border-bottom: 3px solid transparent}
-#logo span{color: #fff;font-size: 2.3em;font-family: 'GreatVibes',serif}
+#logo span {
+	color: #6fdc6f;
+	font-size: 2.5em;
+	font-family: 'GreatVibes',serif
+}
+#logo span:hover {
+	color: #fff;
+	text-shadow: 1px 1px 5px #000, 0 0 20px yellow, 0 0 8px #66ff99;
+	transition: text-shadow .3s;
+}
 .float-header #mainnav ul li a{
     padding: 15px 10px;
 }
@@ -1135,7 +1148,7 @@ body.admin-bar .site-header {
 .stay-connect p i{
     padding-right: 5px;
     font-size: 1.1em;
-    color: #007cb5;
+    color: #46d246;
 }
 .stay-connect p:nth-child(2) i{
     padding-right: 15px;
@@ -1144,13 +1157,11 @@ body.admin-bar .site-header {
     border: 2px solid #fff;
     padding: 6px;
 }
-.navbar .prestro-nav li a{
-    text-transform: uppercase;
-}
 .navbar .prestro-nav li a:hover{
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    text-shadow: 1px 1px 5px #000, 0 0 20px yellow, 0 0 8px #66ff99;
 }
 .social_icon a:hover{
     border-radius: 10px;
@@ -1159,7 +1170,7 @@ body.admin-bar .site-header {
     transition: all 0.4s ease 0s;
 }
 .stay-connect p:nth-child(3) a{
-    color: #007cb5 !important; 
+    color: #46d246 !important; 
 }
 .stay-connect p:nth-child(3) a:hover{
     color: #068256 !important; 
@@ -1259,7 +1270,7 @@ textarea.ninja-forms-field{
     margin-top: 15px;
 }
 .stay-connect p:nth-child(4) i{
-    color: #00aff0;
+    color: #46d246;
 }
 #secondary.widget-area{
     margin-top: 25px;
@@ -1270,7 +1281,7 @@ textarea.ninja-forms-field{
     position: relative;
 }
 .entry-title::before {
-    background: #007cb5;
+    background: #46d246;
     bottom: -2px;
     content: "";
     height: 3px;
@@ -1399,7 +1410,6 @@ label,.textwidget,.site-footer,.entry-content,.why-us h3,.why-us p{font-family: 
     padding-top: 30px;
 }
 #logo img{padding-top: 10px}
-.navbar.prestro-navbar{border-bottom: 1px solid #ccc}
 
 /*Animation styles*/
 h3.animateblock,.services .animateblock{
@@ -1551,14 +1561,14 @@ h3.animateblock.animated{
     padding: 10px;
 }
 .nivo-caption {
-    background: rgba(0,0,0,0.9);
-    bottom: 200px;
-    left: 150px;
+    background: rgba(0,0,0,0.8);
+    bottom: 300px;
+    left: 400px;
     max-width: 100%;
     width: 550px;
 }
 .slide_link > a {
-    background: #007cb5;
+    background: #46d246;
     color: #fff;
     padding: 7px 10px;
 }
