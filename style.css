@@ -597,12 +597,14 @@ body.home .navbar.prestro-navbar{background: rgba(0,0,0,0.6)}
 .prestro-navbar {
     border: none;
 }
+.main-nav .prestro-nav > li > a {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 17px;
+}
 .main-nav .prestro-nav > li > a:focus, .main-nav .prestro-nav > li > a:hover, .main-nav .prestro-nav > li > a:active , .main-nav .prestro-nav > li.current-menu-item a{
     background: transparent !important;
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 17px;
 }
 .current-menu-ancestor > a{color: #FFFFFF !important;}
 .main-nav li > .sub-menu li{
@@ -970,6 +972,9 @@ p.logged-in-as {
     color: #007cb5;
 }
 /*-------------------header style starts-------------------*/
+.site-header {
+	height: 80px;
+}
 body.home .site-header{
     position: absolute;
     top: 0;

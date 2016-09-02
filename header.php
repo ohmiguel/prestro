@@ -25,27 +25,7 @@
     </head>   
     <body <?php body_class(); ?>>
     <div id="page" class="hfeed site">
-<div class="site-header">
-        <nav id="prestro-top-nav" class="navbar prestro-navbar" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <div id="logo">
-                        <div class="site-logo"><?php if( get_theme_mod('logo-img') ){ ?><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_attr(get_theme_mod('logo-img',''));?>"/></a>
-                                                
-                        <?php } else {?>
-                            <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-                                <span style="color:#<?php header_textcolor();?>"><?php bloginfo('name'); ?></span>
-                            </a>
-
-                        <?php }?>
-                       
-                        </div>
-                </div>
-                </div>
-                <?php prestro_header_menu(); ?>
-            </div>
-        </nav>
-    </div>
+			<?php include('navbar.php') ?>
         <div id="primary" class="fp-content-area">
             <main id="main" class="site-main slider-wrapper" role="main">
                 <?php if (is_front_page() && ! is_home()) : ?>
