@@ -97,7 +97,7 @@ body {
 html,
 body {
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 a {
     color: #007cb5;
@@ -317,7 +317,7 @@ textarea {
 .entry-title {
     color: #46d246;
     text-align: center;
-    font-family: 'GreatVibes', sans-serif;
+    font-family: sans-serif;
 }
 .entry-title a {
     color: #444;
